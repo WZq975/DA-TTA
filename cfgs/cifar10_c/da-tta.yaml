@@ -1,0 +1,34 @@
+MODEL:
+  ADAPTATION: datta
+  ARCH: Standard
+TEST:
+  BATCH_SIZE: 64
+CORRUPTION:
+  DATASET: cifar10_c
+  SEVERITY:
+    - 5
+  TYPE:
+    - brightness
+    - glass_blur
+    - jpeg_compression
+    - contrast
+    - defocus_blur
+    - impulse_noise
+    - motion_blur
+    - snow
+    - zoom_blur
+    - frost
+    - pixelate
+    - gaussian_noise
+    - elastic_transform
+    - shot_noise
+    - fog
+OPTIM:
+  METHOD: Adam
+  STEPS: 1
+  BETA: 0.9
+  LR: 1e-4
+  WD: 0.
+DATTA:
+  ALPHA: 0.5
+  THETA: 0.8

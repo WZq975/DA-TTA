@@ -1,0 +1,25 @@
+CORRUPTION:
+  DATASET: imagenet_c
+  SEVERITY:
+    - 5
+  TYPE:
+    - brightness
+    - glass_blur
+    - jpeg_compression
+    - contrast
+    - defocus_blur
+    - impulse_noise
+    - motion_blur
+    - snow
+    - zoom_blur
+    - frost
+    - pixelate
+    - gaussian_noise
+    - elastic_transform
+    - shot_noise
+    - fog
+MODEL:
+  ADAPTATION: ttbn
+  ARCH: resnet50
+TEST:
+  BATCH_SIZE: 64

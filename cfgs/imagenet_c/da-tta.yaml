@@ -1,0 +1,35 @@
+CORRUPTION:
+  DATASET: imagenet_c
+  SEVERITY:
+    - 5
+  TYPE:
+    - brightness
+    - glass_blur
+    - jpeg_compression
+    - contrast
+    - defocus_blur
+    - impulse_noise
+    - motion_blur
+    - snow
+    - zoom_blur
+    - frost
+    - pixelate
+    - gaussian_noise
+    - elastic_transform
+    - shot_noise
+    - fog
+
+MODEL:
+  ADAPTATION: datta
+  ARCH: resnet50
+OPTIM:
+  BETA: 0.9
+  LR: 0.00001
+  METHOD: Adam
+  STEPS: 1
+  WD: 0.0
+TEST:
+  BATCH_SIZE: 40
+DATTA:
+  ALPHA: 0.75
+  THETA: 0.8
