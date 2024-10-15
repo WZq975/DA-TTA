@@ -3,8 +3,7 @@ Official implementation of [DA-TTA](https://arxiv.org/abs/2407.12128).
 
 ## Run
 ```
-python tta.py --cfg cfgs/[dataset, e.g. cifar100_c]/[method, e.g. da-tta].yaml
-
+python tta.py --cfg cfgs/[dataset, e.g., cifar100_c]/[method, e.g., da-tta].yaml
 ```
 
 ## Acknowledgements
