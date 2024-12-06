@@ -15,11 +15,6 @@ To run the implementation, use the following command:
 python tta.py --cfg cfgs/[dataset, e.g., cifar100_c]/[method, e.g., da-tta].yaml
 ```
 
-## Run
-```
-python tta.py --cfg cfgs/[dataset, e.g., cifar100_c]/[method, e.g., da-tta].yaml
-```
-
 ## 📂 Dataset Downloads
 
 The following datasets are supported and can be downloaded from the provided links:
