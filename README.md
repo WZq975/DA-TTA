@@ -42,5 +42,5 @@ The following datasets are supported and can be downloaded from the provided lin
 ```
 ---
 
-## Acknowledgements
+## 🙏 Acknowledgements
 The benchmark framework (data loading, SOTA methods, etc.) is from the [online test-time adaptation repository](https://github.com/mariodoebler/test-time-adaptation).
