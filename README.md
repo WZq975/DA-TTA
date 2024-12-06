@@ -14,7 +14,9 @@ To run the implementation, use the following command:
 ```bash
 python tta.py --cfg cfgs/[dataset, e.g., cifar100_c]/[method, e.g., da-tta].yaml
 ```
-Replace [dataset] and [method] with your desired dataset and method configuration.
+Replace `[dataset]` and `[method]` with your desired dataset and method configuration.
+
+---
 
 ## 📂 Dataset Downloads
 
