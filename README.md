@@ -20,8 +20,8 @@ Replace [dataset] and [method] with your desired dataset and method configuratio
 
 The following datasets are supported and can be downloaded from the provided links:
 
-- **CIFAR-10-C**: [Download here](https://zenodo.org/records/2535967#.ZBiI7NDMKUk)
-- **CIFAR-100-C**: [Download here](https://zenodo.org/records/3555552#.ZBiJA9DMKUk)
+- **CIFAR10-C**: [Download here](https://zenodo.org/records/2535967#.ZBiI7NDMKUk)
+- **CIFAR100-C**: [Download here](https://zenodo.org/records/3555552#.ZBiJA9DMKUk)
 - **ImageNet-C**: [Download here](https://zenodo.org/records/2235448#.Yj2RO_co_mF)
 - **ImageNet-D**: [GitHub Link](https://github.com/bethgelab/robustness/tree/main/examples/imagenet_d)
 - **ImageNet-R**: [GitHub Link](https://github.com/hendrycks/imagenet-r)
