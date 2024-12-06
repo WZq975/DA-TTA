@@ -33,7 +33,7 @@ The following datasets are supported and can be downloaded from the provided lin
 ## 📝 Citation
 
 ```bibtex
-@inproceedings{wang2025datta,
+@inproceedings{wang2024datta,
   title={Distribution Alignment for Fully Test-Time Adaptation with Dynamic Online Data Streams},
   author={Wang, Ziqiang and Chi, Zhixiang and Wu, Yanan and Gu, Li and Liu, Zhi and Plataniotis, Konstantinos and Wang, Yang},
   booktitle={European Conference on Computer Vision},
